@@ -27,7 +27,7 @@ const config = {
     {
       resolve: 'gatsby-theme-docz',
       options: {
-        themeConfig: {},
+        themeConfig: { mode: 'dark' },
         src: './',
         gatsbyRoot: null,
         themesDir: 'src',
