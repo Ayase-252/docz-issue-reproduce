@@ -1,0 +1,159 @@
+{
+  "config": {
+    "title": "Gatsby Starter Default",
+    "description": "A simple starter to get up and developing quickly with Gatsby",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
+    "native": false,
+    "themeConfig": {},
+    "separator": "-",
+    "gatsbyRemarkPlugins": [
+      {
+        "resolve": "gatsby-remark-vscode",
+        "options": {}
+      }
+    ]
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/Users/qingyudeng/projects/my-gatsby-site-with-docz/README.md",
+        "link": "",
+        "hidden": false,
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "-quick-start",
+            "depth": 2,
+            "value": "🚀 Quick start"
+          },
+          {
+            "slug": "🧐-whats-inside",
+            "depth": 2,
+            "value": "🧐 What's inside?"
+          },
+          {
+            "slug": "-learning-gatsby",
+            "depth": 2,
+            "value": "🎓 Learning Gatsby"
+          },
+          {
+            "slug": "-deploy",
+            "depth": 2,
+            "value": "💫 Deploy"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/Button.mdx",
+      "value": {
+        "name": "按钮",
+        "route": "/button",
+        "id": "68a6b55def5e73bf0a1b7ab2a4a79f62",
+        "filepath": "docs/Button.mdx",
+        "fullpath": "/Users/qingyudeng/projects/my-gatsby-site-with-docz/docs/Button.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "docs-button",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "按钮",
+            "depth": 1,
+            "value": "按钮"
+          },
+          {
+            "slug": "实例",
+            "depth": 2,
+            "value": "实例"
+          },
+          {
+            "slug": "props",
+            "depth": 2,
+            "value": "Props"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/index.mdx",
+      "value": {
+        "name": "开始",
+        "route": "/",
+        "id": "73498ad0e1e62a714b08085d318f9de1",
+        "filepath": "docs/index.mdx",
+        "fullpath": "/Users/qingyudeng/projects/my-gatsby-site-with-docz/docs/index.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "docs-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "开始",
+            "depth": 1,
+            "value": "开始"
+          },
+          {
+            "slug": "标题-1",
+            "depth": 2,
+            "value": "标题 1"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "docs/Button.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Button",
+          "methods": [],
+          "actualName": "Button",
+          "props": {
+            "text": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": ""
+            },
+            "onClick": {
+              "type": {
+                "name": "func"
+              },
+              "required": false,
+              "description": ""
+            },
+            "size": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"small\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"large\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
