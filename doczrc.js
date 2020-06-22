@@ -6,4 +6,7 @@ export default {
       options: {},
     },
   ],
+  themeConfig: {
+    mode: "dark"
+  }
 }

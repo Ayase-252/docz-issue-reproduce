@@ -6,7 +6,9 @@
     "version": "0.1.0",
     "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
     "native": false,
-    "themeConfig": {},
+    "themeConfig": {
+      "mode": "dark"
+    },
     "separator": "-",
     "gatsbyRemarkPlugins": [
       {
@@ -22,7 +24,7 @@
         "id": "04c6e90faac2675aa89e2176d2eec7d8",
         "filepath": "README.md",
         "fullpath": "/Users/qingyudeng/projects/my-gatsby-site-with-docz/README.md",
-        "link": "",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/README.md",
         "hidden": false,
         "slug": "readme",
         "route": "/readme",
@@ -60,7 +62,7 @@
         "id": "68a6b55def5e73bf0a1b7ab2a4a79f62",
         "filepath": "docs/Button.mdx",
         "fullpath": "/Users/qingyudeng/projects/my-gatsby-site-with-docz/docs/Button.mdx",
-        "link": "",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/Button.mdx",
         "hidden": false,
         "slug": "docs-button",
         "menu": "",
@@ -91,7 +93,7 @@
         "id": "73498ad0e1e62a714b08085d318f9de1",
         "filepath": "docs/index.mdx",
         "fullpath": "/Users/qingyudeng/projects/my-gatsby-site-with-docz/docs/index.mdx",
-        "link": "",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/index.mdx",
         "hidden": false,
         "slug": "docs-index",
         "menu": "",
